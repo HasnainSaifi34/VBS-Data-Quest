@@ -19,6 +19,6 @@ plt.title('Frequency of Bad Psychological Health State-wise')
 plt.xticks(rotation=90)  # Rotate x-axis labels for better readability
 plt.tight_layout()  # Adjust layout to prevent clipping of labels
 plt.show()
-# print(data)
+print(data)
 cursor.close()
 conn.close()
